@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression testing">
+	<test name="Login Test">
+		<parameter name="userName" value="demo@techfios.com" />
+		<parameter name="password" value="abc123" />
+		<parameter name="FullName" value="Sel NB" />
+		<parameter name="CompanyName" value="Techfios" />
+		<parameter name="Email" value="selNB@test.com" />
+		<parameter name="Phone" value="12344321" />
+		<parameter name="Address" value="Techfios building" />
+		<parameter name="City" value="Carrrolton" />
+		<parameter name="State" value="Texas" />
+		<parameter name="Zip" value="75009" />
+		<parameter name="Country" value="United Kingdom" />
+		<classes>
+			<class name="test.LoginTest" />
+			<class name = "test.AddCustomerTest"/>
+			<class name = "test.ListCustomerTest"/>
+		</classes>
+	</test>
+</suite>

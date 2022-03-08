@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="Zip" value="param-val-not-found"/>
+  <parameter name="CompanyName" value="param-val-not-found"/>
+  <parameter name="password" value="param-val-not-found"/>
+  <parameter name="Email" value="param-val-not-found"/>
+  <parameter name="Address" value="param-val-not-found"/>
+  <parameter name="Phone" value="param-val-not-found"/>
+  <parameter name="State" value="param-val-not-found"/>
+  <parameter name="FullName" value="param-val-not-found"/>
+  <parameter name="Country" value="param-val-not-found"/>
+  <parameter name="City" value="param-val-not-found"/>
+  <parameter name="userName" value="param-val-not-found"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.ListCustomerTest">
+        <methods>
+          <include name="verifiedUserMustBeAbleToGoToListCustomerAndPeformOperations" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.ListCustomerTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
